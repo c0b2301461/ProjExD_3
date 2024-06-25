@@ -150,7 +150,7 @@ class Score:
         self.color = (0, 0, 255)
         self.img = self.fonto.render("スコア: 0", 0, self.color)
         self.rct = self.img.get_rect()
-        self.rct.center = (100, HEIGHT - 50)
+        self.rct.center = (100, HEIGHT - 50)#文字列の中心座標、（横：１００、縦、５０）
 
     def update(self, screen: pg.Surface):
         """
